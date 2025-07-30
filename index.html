@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FreshFlex Cleaning Co.</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'fresh-teal': '#20c997',
+            'fresh-dark': '#0f172a',
+            'fresh-light': '#f8fafc',
+          },
+          fontFamily: {
+            'inter': ['Inter', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+  </style>
+</head>
+<body class="bg-gradient-to-br from-fresh-light to-gray-50 text-gray-800">
+  <!-- Navigation -->
+  <nav class="bg-white/80 backdrop-blur-md fixed w-full z-50 border-b border-gray-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center py-4">
+        <div class="flex items-center space-x-3">
+          <div class="w-12 h-12 bg-gradient-to-br from-fresh-teal to-emerald-500 rounded-full flex items-center justify-center">
+            <span class="text-white font-bold text-xl">F</span>
+          </div>
+          <div>
+            <h1 class="text-xl font-bold text-fresh-dark">FreshFlex</h1>
+            <p class="text-xs text-gray-500">Cleaning Co.</p>
+          </div>
+        </div>
+        <button class="bg-gradient-to-r from-fresh-teal to-emerald-500 text-white px-6 py-2 rounded-full font-medium hover:shadow-lg transform hover:scale-105 transition-all duration-200">
+          Get Quote
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="pt-24 pb-16 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
+    <div class="absolute inset-0 bg-gradient-to-br from-fresh-dark via-slate-800 to-gray-900"></div>
+    <div class="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg"%3E%3Cg fill="none" fill-rule="evenodd"%3E%3Cg fill="%239C92AC" fill-opacity="0.05"%3E%3Ccircle cx="30" cy="30" r="1"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E')] opacity-20"></div>
+    
+    <div class="max-w-7xl mx-auto relative">
+      <div class="text-center">
+        <div class="flex justify-center mb-8">
+          <div class="w-24 h-24 bg-gradient-to-br from-fresh-teal to-emerald-400 rounded-full flex items-center justify-center shadow-2xl animate-pulse">
+            <svg class="w-12 h-12 text-white" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+            </svg>
+          </div>
+        </div>
+        
+        <h1 class="text-5xl md:text-7xl font-bold text-white mb-6">
+          <span class="bg-gradient-to-r from-fresh-teal to-emerald-400 bg-clip-text text-transparent">FreshFlex</span>
+          <br />
+          <span class="text-3xl md:text-4xl font-medium">Cleaning Co.</span>
+        </h1>
+        
+        <p class="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed">
+          We Don't Cut Corners — We Clean Them.
+        </p>
+        
+        <p class="text-lg text-gray-400 mb-12 max-w-2xl mx-auto">
+          Reliable, Eco-Friendly, and Affordable Cleaning Services for Your Home or Office
+        </p>
+        
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <button class="bg-gradient-to-r from-fresh-teal to-emerald-500 text-white px-8 py-4 rounded-full text-lg font-semibold hover:shadow-2xl transform hover:scale-105 transition-all duration-300">
+            Get Free Quote
+          </button>
+          <button class="border-2 border-fresh-teal text-fresh-teal px-8 py-4 rounded-full text-lg font-semibold hover:bg-fresh-teal hover:text-white transition-all duration-300">
+            View Services
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Services Section -->
+  <section class="py-20 px-4 sm:px-6 lg:px-8">
+    <div class="max-w-7xl mx-auto">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl md:text-5xl font-bold text-fresh-dark mb-6">Our Services</h2>
+        <p class="text-xl text-gray-600 max-w-2xl mx-auto">Professional cleaning solutions tailored to your needs</p>
+      </div>
+      
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div class="group bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 border border-gray-100">
+          <div class="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+            <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M12 2L13.09 8.26L22 9L14.09 16.74L16 22L12 18L8 22L9.91 16.74L2 9L10.91 8.26L12 2Z"/>
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold text-gray-800 mb-3">Basic Cleaning</h3>
+          <p class="text-gray-600">Regular maintenance cleaning for your home or office</p>
+        </div>
+        
+        <div class="group bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 border border-gray-100">
+          <div class="w-16 h-16 bg-gradient-to-br from-fresh-teal to-emerald-500 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+            <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M19 3H5C3.9 3 3 3.9 3 5V19C3 20.1 3.9 21 5 21H19C20.1 21 21 20.1 21 19V5C21 3.9 20.1 3 19 3ZM19 19H5V5H19V19Z"/>
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold text-gray-800 mb-3">Deep Cleaning</h3>
+          <p class="text-gray-600">Comprehensive cleaning with attention to every detail</p>
+        </div>
+        
+        <div class="group bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 border border-gray-100">
+          <div class="w-16 h-16 bg-gradient-to-br from-purple-500 to-purple-600 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+            <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M10 20V14H14V20H19V12H22L12 3L2 12H5V20H10Z"/>
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold text-gray-800 mb-3">Move In/Out</h3>
+          <p class="text-gray-600">Complete cleaning for moving transitions</p>
+        </div>
+        
+        <div class="group bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 border border-gray-100">
+          <div class="w-16 h-16 bg-gradient-to-br from-orange-500 to-orange-600 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+            <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M12 2L15.09 8.26L22 9L16 14.74L17.18 21.02L12 18L6.82 21.02L8 14.74L2 9L8.91 8.26L12 2Z"/>
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold text-gray-800 mb-3">Organization</h3>
+          <p class="text-gray-600">Laundry, organizing, and decluttering services</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing Section -->
+  <section class="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-50 to-white">
+    <div class="max-w-7xl mx-auto">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl md:text-5xl font-bold text-fresh-dark mb-6">How It Works</h2>
+        <p class="text-xl text-gray-600 max-w-2xl mx-auto">Simple, transparent pricing for all your cleaning needs</p>
+      </div>
+
+      <!-- Step 1: Service Types -->
+      <div class="mb-16">
+        <h3 class="text-2xl font-bold text-gray-800 mb-8 text-center">Step 1: Choose Your Service</h3>
+        <div class="bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-100">
+          <div class="overflow-x-auto">
+            <table class="w-full">
+              <thead class="bg-gradient-to-r from-fresh-teal to-emerald-500 text-white">
+                <tr>
+                  <th class="px-6 py-4 text-left font-semibold">Service Type</th>
+                  <th class="px-6 py-4 text-left font-semibold">What's Included</th>
+                </tr>
+              </thead>
+              <tbody class="divide-y divide-gray-100">
+                <tr class="hover:bg-gray-50 transition-colors duration-200">
+                  <td class="px-6 py-4 font-medium text-gray-800">Basic Clean</td>
+                  <td class="px-6 py-4 text-gray-600">Dusting, vacuum/sweep/mop, kitchen, bathrooms</td>
+                </tr>
+                <tr class="hover:bg-gray-50 transition-colors duration-200">
+                  <td class="px-6 py-4 font-medium text-gray-800">Deep Clean</td>
+                  <td class="px-6 py-4 text-gray-600">Everything in Basic + baseboards, blinds, inside microwave/fridge, scrubbing/detailing</td>
+                </tr>
+                <tr class="hover:bg-gray-50 transition-colors duration-200">
+                  <td class="px-6 py-4 font-medium text-gray-800">Move-Out Clean</td>
+                  <td class="px-6 py-4 text-gray-600">Deep Clean + inside all cabinets, walls, all appliances, garage sweep, etc.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!-- Optional Add-ons -->
+      <div class="mb-16">
+        <h3 class="text-2xl font-bold text-gray-800 mb-8 text-center">Optional Add-Ons</h3>
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div class="bg-white rounded-xl p-6 shadow-lg border border-gray-100 hover:shadow-xl transition-shadow duration-300">
+            <div class="w-12 h-12 bg-gradient-to-br from-fresh-teal to-emerald-500 rounded-lg flex items-center justify-center mb-4">
+              <span class="text-white text-xl">👕</span>
+            </div>
+            <h4 class="font-semibold text-gray-800 mb-2">Laundry</h4>
+            <p class="text-gray-600 text-sm">Fold + organize</p>
+          </div>
+          <div class="bg-white rounded-xl p-6 shadow-lg border border-gray-100 hover:shadow-xl transition-shadow duration-300">
+            <div class="w-12 h-12 bg-gradient-to-br from-purple-500 to-purple-600 rounded-lg flex items-center justify-center mb-4">
+              <span class="text-white text-xl">🏠</span>
+            </div>
+            <h4 class="font-semibold text-gray-800 mb-2">Garage</h4>
+            <p class="text-gray-600 text-sm">Cleanout service</p>
+          </div>
+          <div class="bg-white rounded-xl p-6 shadow-lg border border-gray-100 hover:shadow-xl transition-shadow duration-300">
+            <div class="w-12 h-12 bg-gradient-to-br from-pink-500 to-pink-600 rounded-lg flex items-center justify-center mb-4">
+              <span class="text-white text-xl">🌸</span>
+            </div>
+            <h4 class="font-semibold text-gray-800 mb-2">Garden</h4>
+            <p class="text-gray-600 text-sm">Flower bed cleanup</p>
+          </div>
+          <div class="bg-white rounded-xl p-6 shadow-lg border border-gray-100 hover:shadow-xl transition-shadow duration-300">
+            <div class="w-12 h-12 bg-gradient-to-br from-blue-500 to-blue-600 rounded-lg flex items-center justify-center mb-4">
+              <span class="text-white text-xl">📦</span>
+            </div>
+            <h4 class="font-semibold text-gray-800 mb-2">Organizing</h4>
+            <p class="text-gray-600 text-sm">Pantry/closets</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pricing Tables -->
+      <div class="grid lg:grid-cols-3 gap-8 mb-16">
+        <!-- Basic Clean -->
+        <div class="bg-white rounded-2xl shadow-lg border border-gray-100 overflow-hidden">
+          <div class="bg-gradient-to-r from-blue-500 to-blue-600 text-white p-6">
+            <h4 class="text-xl font-bold flex items-center">
+              <span class="mr-2">🧹</span> Basic Clean
+            </h4>
+          </div>
+          <div class="p-6">
+            <div class="space-y-3">
+              <div class="flex justify-between">
+                <span class="text-gray-600">1 bed / 1 bath</span>
+                <span class="font-semibold">$85</span>
+              </div>
+              <div class="flex justify-between">
+                <span class="text-gray-600">2 bed / 2 bath</span>
+                <span class="font-semibold">$115</span>
+              </div>
+              <div class="flex justify-between">
+                <span class="text-gray-600">3 bed / 2 bath</span>
+                <span class="font-semibold">$135</span>
+              </div>
+              <div class="flex justify-between">
+                <span class="text-gray-600">4 bed / 3 bath</span>
+                <span class="font-semibold">$160+</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Deep Clean -->
+        <div class="bg-white rounded-2xl shadow-lg border border-gray-100 overflow-hidden">
+          <div class="bg-gradient-to-r from-fresh-teal to-emerald-500 text-white p-6">
+            <h4 class="text-xl font-bold flex items-center">
+              <span class="mr-2">🧼</span> Deep Clean
+            </h4>
+          </div>
+          <div class="p-6">
+            <div class="space-y-3">
+              <div class="flex justify-between">
+                <span class="text-gray-600">2 bed / 2 bath</span>
+                <span class="font-semibold">$175</span>
+              </div>
+              <div class="flex justify-between">
+                <span class="text-gray-600">3 bed / 2 bath</span>
+                <span class="font-semibold">$195</span>
+              </div>
+              <div class="flex justify-between">
+                <span class="text-gray-600">4 bed / 3 bath</span>
+                <span class="font-semibold">$225+</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Move-Out Clean -->
+        <div class="bg-white rounded-2xl shadow-lg border border-gray-100 overflow-hidden">
+          <div class="bg-gradient-to-r from-purple-500 to-purple-600 text-white p-6">
+            <h4 class="text-xl font-bold flex items-center">
+              <span class="mr-2">🧳</span> Move-Out Clean
+            </h4>
+          </div>
+          <div class="p-6">
+            <div class="space-y-3">
+              <div class="flex justify-between">
+                <span class="text-gray-600">Apartment</span>
+                <span class="font-semibold">$180–$220</span>
+              </div>
+              <div class="flex justify-between">
+                <span class="text-gray-600">House <2000 sq ft</span>
+                <span class="font-semibold">$250–$300</span>
+              </div>
+              <div class="flex justify-between">
+                <span class="text-gray-600">House >2000 sq ft</span>
+                <span class="font-semibold">$300–$400+</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Add-on Pricing -->
+      <div class="mb-16">
+        <h3 class="text-2xl font-bold text-gray-800 mb-8 text-center">Step 3: Add-On Pricing</h3>
+        <div class="bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-100">
+          <div class="overflow-x-auto">
+            <table class="w-full">
+              <thead class="bg-gradient-to-r from-orange-500 to-orange-600 text-white">
+                <tr>
+                  <th class="px-6 py-4 text-left font-semibold">Add-On Service</th>
+                  <th class="px-6 py-4 text-left font-semibold">Price</th>
+                </tr>
+              </thead>
+              <tbody class="divide-y divide-gray-100">
+                <tr class="hover:bg-gray-50 transition-colors duration-200">
+                  <td class="px-6 py-4 text-gray-800">Laundry (wash/fold/organize)</td>
+                  <td class="px-6 py-4 font-semibold text-fresh-teal">$35–$50/load</td>
+                </tr>
+                <tr class="hover:bg-gray-50 transition-colors duration-200">
+                  <td class="px-6 py-4 text-gray-800">Flower bed cleanup</td>
+                  <td class="px-6 py-4 font-semibold text-fresh-teal">$75+</td>
+                </tr>
+                <tr class="hover:bg-gray-50 transition-colors duration-200">
+                  <td class="px-6 py-4 text-gray-800">Garage cleanout</td>
+                  <td class="px-6 py-4 font-semibold text-fresh-teal">$100–$200</td>
+                </tr>
+                <tr class="hover:bg-gray-50 transition-colors duration-200">
+                  <td class="px-6 py-4 text-gray-800">Closet/pantry organizing</td>
+                  <td class="px-6 py-4 font-semibold text-fresh-teal">$50/hr</td>
+                </tr>
+                <tr class="hover:bg-gray-50 transition-colors duration-200">
+                  <td class="px-6 py-4 text-gray-800">Interior window cleaning</td>
+                  <td class="px-6 py-4 font-semibold text-fresh-teal">$50–$100</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!-- Deals -->
+      <div class="bg-gradient-to-r from-fresh-teal to-emerald-500 rounded-2xl p-8 text-white text-center">
+        <h3 class="text-2xl font-bold mb-6">Special Deals & Packages</h3>
+        <div class="grid md:grid-cols-3 gap-6">
+          <div class="bg-white/20 backdrop-blur-sm rounded-xl p-6">
+            <div class="text-3xl mb-2">🎉</div>
+            <h4 class="font-semibold mb-2">First-time Clean</h4>
+            <p class="text-sm opacity-90">10% off your first service</p>
+          </div>
+          <div class="bg-white/20 backdrop-blur-sm rounded-xl p-6">
+            <div class="text-3xl mb-2">📅</div>
+            <h4 class="font-semibold mb-2">Bi-weekly Subscription</h4>
+            <p class="text-sm opacity-90">Save 15% on regular cleanings</p>
+          </div>
+          <div class="bg-white/20 backdrop-blur-sm rounded-xl p-6">
+            <div class="text-3xl mb-2">📦</div>
+            <h4 class="font-semibold mb-2">Bundle Add-ons</h4>
+            <p class="text-sm opacity-90">2 add-ons = $25 off</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="py-20 px-4 sm:px-6 lg:px-8">
+    <div class="max-w-7xl mx-auto">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl md:text-5xl font-bold text-fresh-dark mb-6">What Our Clients Say</h2>
+        <p class="text-xl text-gray-600 max-w-2xl mx-auto">Don't just take our word for it</p>
+      </div>
+      
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white rounded-2xl p-8 shadow-lg border border-gray-100 hover:shadow-xl transition-shadow duration-300">
+          <div class="flex mb-4">
+            <div class="flex text-yellow-400">
+              <span>⭐⭐⭐⭐⭐</span>
+            </div>
+          </div>
+          <p class="text-gray-700 mb-6 italic">"So fast and spotless. Will definitely use again!"</p>
+          <div class="flex items-center">
+            <div class="w-10 h-10 bg-gradient-to-br from-fresh-teal to-emerald-500 rounded-full flex items-center justify-center text-white font-semibold">
+              S
+            </div>
+            <div class="ml-3">
+              <p class="font-semibold text-gray-800">Sarah M.</p>
+              <p class="text-sm text-gray-500">Homeowner</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="bg-white rounded-2xl p-8 shadow-lg border border-gray-100 hover:shadow-xl transition-shadow duration-300">
+          <div class="flex mb-4">
+            <div class="flex text-yellow-400">
+              <span>⭐⭐⭐⭐⭐</span>
+            </div>
+          </div>
+          <p class="text-gray-700 mb-6 italic">"Best cleaning service I've had in years!"</p>
+          <div class="flex items-center">
+            <div class="w-10 h-10 bg-gradient-to-br from-purple-500 to-purple-600 rounded-full flex items-center justify-center text-white font-semibold">
+              M
+            </div>
+            <div class="ml-3">
+              <p class="font-semibold text-gray-800">Michael R.</p>
+              <p class="text-sm text-gray-500">Business Owner</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="bg-white rounded-2xl p-8 shadow-lg border border-gray-100 hover:shadow-xl transition-shadow duration-300">
+          <div class="flex mb-4">
+            <div class="flex text-yellow-400">
+              <span>⭐⭐⭐⭐⭐</span>
+            </div>
+          </div>
+          <p class="text-gray-700 mb-6 italic">"Reliable, friendly, and affordable!"</p>
+          <div class="flex items-center">
+            <div class="w-10 h-10 bg-gradient-to-br from-pink-500 to-pink-600 rounded-full flex items-center justify-center text-white font-semibold">
+              E
+            </div>
+            <div class="ml-3">
+              <p class="font-semibold text-gray-800">Emily K.</p>
+              <p class="text-sm text-gray-500">Property Manager</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-fresh-dark to-slate-800">
+    <div class="max-w-4xl mx-auto">
+      <div class="text-center mb-12">
+        <h2 class="text-4xl md:text-5xl font-bold text-white mb-6">Get in Touch</h2>
+        <p class="text-xl text-gray-300 max-w-2xl mx-auto">Ready for a sparkling clean space? Let's discuss your needs!</p>
+      </div>
+      
+      <div class="bg-white rounded-2xl shadow-2xl p-8 md:p-12">
+        <form action="https://formspree.io/f/mnqezyzo" method="POST" class="space-y-6">
+          <div class="grid md:grid-cols-2 gap-6">
+            <div>
+              <label class="block text-sm font-semibold text-gray-700 mb-2">Your Name</label>
+              <input 
+                type="text" 
+                name="name" 
+                required 
+                class="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-fresh-teal focus:border-fresh-teal transition-colors duration-200"
+                placeholder="Enter your full name"
+              />
+            </div>
+            <div>
+              <label class="block text-sm font-semibold text-gray-700 mb-2">Email Address</label>
+              <input 
+                type="email" 
+                name="email" 
+                required 
+                class="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-fresh-teal focus:border-fresh-teal transition-colors duration-200"
+                placeholder="your@email.com"
+              />
+            </div>
+          </div>
+          
+          <div>
+            <label class="block text-sm font-semibold text-gray-700 mb-2">Phone Number</label>
+            <input 
+              type="tel" 
+              name="phone" 
+              required 
+              class="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-fresh-teal focus:border-fresh-teal transition-colors duration-200"
+              placeholder="(555) 123-4567"
+            />
+          </div>
+          
+          <div>
+            <label class="block text-sm font-semibold text-gray-700 mb-2">Tell us about your cleaning needs</label>
+            <textarea 
+              name="message" 
+              required 
+              rows="5"
+              class="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-fresh-teal focus:border-fresh-teal transition-colors duration-200 resize-none"
+              placeholder="What type of cleaning service are you looking for? Any specific requirements or questions?"
+            ></textarea>
+          </div>
+          
+          <div class="text-center">
+            <button 
+              type="submit" 
+              class="bg-gradient-to-r from-fresh-teal to-emerald-500 text-white px-8 py-4 rounded-full text-lg font-semibold hover:shadow-2xl transform hover:scale-105 transition-all duration-300 w-full md:w-auto"
+            >
+              Send Message
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-fresh-dark text-white py-16 px-4 sm:px-6 lg:px-8">
+    <div class="max-w-7xl mx-auto">
+      <div class="grid md:grid-cols-3 gap-12 mb-12">
+        <!-- Company Info -->
+        <div>
+          <div class="flex items-center space-x-3 mb-6">
+            <div class="w-12 h-12 bg-gradient-to-br from-fresh-teal to-emerald-500 rounded-full flex items-center justify-center">
+              <span class="text-white font-bold text-xl">F</span>
+            </div>
+            <div>
+              <h1 class="text-xl font-bold">FreshFlex</h1>
+              <p class="text-sm text-gray-400">Cleaning Co.</p>
+            </div>
+          </div>
+          <p class="text-gray-300 mb-6">We Don't Cut Corners — We Clean Them.</p>
+          <p class="text-sm text-gray-400">Professional cleaning services you can trust for your home and office.</p>
+        </div>
+        
+        <!-- Services -->
+        <div>
+          <h3 class="text-lg font-semibold mb-6">Our Services</h3>
+          <ul class="space-y-3 text-gray-300">
+            <li class="hover:text-fresh-teal transition-colors duration-200 cursor-pointer">Basic Cleaning</li>
+            <li class="hover:text-fresh-teal transition-colors duration-200 cursor-pointer">Deep Cleaning</li>
+            <li class="hover:text-fresh-teal transition-colors duration-200 cursor-pointer">Move In/Out Cleaning</li>
+            <li class="hover:text-fresh-teal transition-colors duration-200 cursor-pointer">Laundry & Organization</li>
+            <li class="hover:text-fresh-teal transition-colors duration-200 cursor-pointer">Add-On Services</li>
+          </ul>
+        </div>
+        
+        <!-- Contact Info -->
+        <div>
+          <h3 class="text-lg font-semibold mb-6">Get In Touch</h3>
+          <div class="space-y-4">
+            <div class="flex items-center space-x-3">
+              <div class="w-8 h-8 bg-fresh-teal rounded-lg flex items-center justify-center">
+                <span class="text-sm">📞</span>
+              </div>
+              <span class="text-gray-300">(XXX) XXX-XXXX</span>
+            </div>
+            <div class="flex items-center space-x-3">
+              <div class="w-8 h-8 bg-fresh-teal rounded-lg flex items-center justify-center">
+                <span class="text-sm">✉️</span>
+              </div>
+              <span class="text-gray-300">your@email.com</span>
+            </div>
+            <div class="flex items-center space-x-3">
+              <div class="w-8 h-8 bg-fresh-teal rounded-lg flex items-center justify-center">
+                <span class="text-sm">📍</span>
+              </div>
+              <span class="text-gray-300">Waco, Texas</span>
+            </div>
+          </div>
+          
+          <!-- Social Links -->
+          <div class="flex space-x-4 mt-8">
+            <div class="w-10 h-10 bg-gray-700 hover:bg-fresh-teal rounded-lg flex items-center justify-center cursor-pointer transition-colors duration-200">
+              <span class="text-white">📘</span>
+            </div>
+            <div class="w-10 h-10 bg-gray-700 hover:bg-fresh-teal rounded-lg flex items-center justify-center cursor-pointer transition-colors duration-200">
+              <span class="text-white">📷</span>
+            </div>
+            <div class="w-10 h-10 bg-gray-700 hover:bg-fresh-teal rounded-lg flex items-center justify-center cursor-pointer transition-colors duration-200">
+              <span class="text-white">🐦</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Bottom Bar -->
+      <div class="border-t border-gray-700 pt-8 text-center">
+        <p class="text-gray-400 mb-2">© 2025 FreshFlex Cleaning Co. All rights reserved.</p>
+        <p class="text-sm text-gray-500">Licensed, Bonded & Insured | Eco-Friendly Products | Satisfaction Guaranteed</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Action Button -->
+  <div class="fixed bottom-6 right-6 z-50">
+    <button class="bg-gradient-to-r from-fresh-teal to-emerald-500 text-white w-16 h-16 rounded-full shadow-2xl hover:shadow-3xl transform hover:scale-110 transition-all duration-300 flex items-center justify-center">
+      <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+        <path d="M20 4H4C2.9 4 2.01 4.9 2.01 6L2 18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6C22 4.9 21.1 4 20 4ZM20 8L12 13L4 8V6L12 11L20 6V8Z"/>
+      </svg>
+    </button>
+  </div>
+
+  <script>
+    // Smooth scrolling for navigation
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+
+    // Add scroll effect to navbar
+    window.addEventListener('scroll', function() {
+      const nav = document.querySelector('nav');
+      if (window.scrollY > 100) {
+        nav.classList.add('bg-white/95');
+        nav.classList.remove('bg-white/80');
+      } else {
+        nav.classList.add('bg-white/80');
+        nav.classList.remove('bg-white/95');
+      }
+    });
+
+    // Form submission feedback
+    document.querySelector('form').addEventListener('submit', function(e) {
+      const button = this.querySelector('button[type="submit"]');
+      const originalText = button.textContent;
+      button.textContent = 'Sending...';
+      button.disabled = true;
+      
+      // Re-enable after a delay (in a real scenario, this would be handled by the form service)
+      setTimeout(() => {
+        button.textContent = originalText;
+        button.disabled = false;
+      }, 3000);
+    });
+  </script>
+</body>
+</html>
